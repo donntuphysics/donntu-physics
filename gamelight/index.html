@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tik tak toe</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav>
+    <a href="../content/esselight.html" style="font-size: 25px;">Главная</a> |
+    <a href="../content/esse1light.html" style="font-size: 25px;">Эссе №1</a> |
+    <a href="../content/esse2light.html" style="font-size: 25px;">Эссе №2</a> |
+    <a href="../content/esse3light.html" style="font-size: 25px;">Эссе №3</a> |
+    <img src="../content/game.png" alt="игра" width=35" height="25">
+    <b style="font-size: 25px;">Игра</b> |
+    <a href="../map/polyline.html" style="font-size: 25px;">Карта</a> |
+    <a href="../content/formula.html" style="font-size: 25px;">Формула</a> |
+    <a href="../game/index.html" style="font-size: 25px;">
+        <img src="../content/lampa.png" alt="другая тема" width="25" height="25"> Темная тема
+    </a>
+
+</nav>
+    <div class="content">
+
+        <div class="currentPlayer">
+            <span>Сейчас ходит: <span id="curPlyr">X</span></span>
+        </div>
+
+        <div id="area"></div>
+
+        <div class="stat">
+            <table>
+                <th colspan="2">Статистика</th>
+                <tr>
+                    <td>X</td>
+                    <td><span id="sX">0</span></td>
+                </tr>
+                <tr>
+                    <td>O</td>
+                    <td><span id="sO">0</span></td>
+                </tr>
+                <tr>
+                    <td>Ничьи</td>
+                    <td><span id="sD">0</span></td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="js/main.js"></script>
+    </div>
+</body>
+</html>
